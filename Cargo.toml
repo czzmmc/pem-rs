@@ -26,3 +26,7 @@ harness = false
 
 [badges]
 travis-ci = { repository = "jcreekmore/pem-rs" }
+
+[features]
+default = ["mesalock_sgx"]
+mesalock_sgx = ["sgx_tstd"]
