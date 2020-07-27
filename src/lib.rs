@@ -115,6 +115,8 @@ extern crate regex;
 
 mod errors;
 
+use std::prelude::v1::*;
+
 pub use crate::errors::{PemError, Result};
 use once_cell::sync::Lazy;
 use regex::bytes::{Captures, Regex};
