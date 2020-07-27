@@ -111,6 +111,8 @@
 #[macro_use]
 extern crate sgx_tstd as std;
 
+extern crate regex;
+
 mod errors;
 
 pub use crate::errors::{PemError, Result};
