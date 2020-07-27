@@ -19,6 +19,7 @@ pub enum PemError {
     NotUtf8(::std::str::Utf8Error),
 }
 
+#[allow(deprecated)]
 impl fmt::Display for PemError {
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
         match self {
@@ -35,6 +36,7 @@ impl fmt::Display for PemError {
     }
 }
 
+#[allow(deprecated)]
 impl Error for PemError {
     fn source(&self) -> Option<&(dyn Error + 'static)> {
         match self {
