@@ -15,7 +15,7 @@ edition = "2018"
 base64 = { git = "https://github.com/mesalock-linux/rust-base64-sgx" }
 once_cell = { git = "https://github.com/mesalock-linux/once_cell-sgx.git" }
 regex = { version = "1", git = "https://github.com/mesalock-linux/regex-sgx" }
-sgx_tstd = { rev = "v1.1.2", git = "https://github.com/apache/teaclave-sgx-sdk", optional = true }
+sgx_tstd = { rev = "v1.1.1", git = "https://github.com/apache/teaclave-sgx-sdk", optional = true }
 
 [dev-dependencies]
 # criterion = "0.3.0"
