@@ -12,9 +12,9 @@ categories = [ "cryptography" ]
 edition = "2018"
 
 [dependencies]
-base64 = { git = "https://github.com/mesalock-linux/rust-base64-sgx" }
-once_cell = { git = "https://github.com/mesalock-linux/once_cell-sgx.git" }
-regex = { version = "1", git = "https://github.com/mesalock-linux/regex-sgx" }
+base64 = { git = "https://github.com/mesalock-linux/rust-base64-sgx", tag = "sgx_1.1.1" }
+once_cell = { git = "https://github.com/mesalock-linux/once_cell-sgx.git", tag = "sgx_1.1.1" }
+regex = { version = "1", git = "https://github.com/mesalock-linux/regex-sgx", tag = "sgx_1.1.1" }
 sgx_tstd = { rev = "v1.1.1", git = "https://github.com/apache/teaclave-sgx-sdk", optional = true }
 
 [dev-dependencies]
